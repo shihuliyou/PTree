@@ -51,18 +51,14 @@ class DataConfig:
     factor_cols: Tuple[str, ...] = ("mktrf", "smb", "hml", "rmw", "cma", "rf", "mom")
 
     columns_order: Tuple[str, ...] = (
-        """
-        特征补全
-        """
+
+        # 特征
+
     )
 
 
 @dataclass(frozen=True)
 class FeatureConfig:
-    """
-    视具体数据而定
-    """
-
     all_chars_start_pos_r: int = 10
     all_chars_end_pos_r: int = 70
     instruments_top_k: int = 5
@@ -124,7 +120,6 @@ class ExperimentConfig:
     loss: LossConfig = LossConfig()
 
     def to_dict(self) -> Dict[str, Any]:
-        """便于保存配置快照，保证可复现。"""
         return asdict(self)
 
 

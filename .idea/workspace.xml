@@ -4,25 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="442eb4c9-b09e-4b25-9961-56d9ef9417f9" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/PTree.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/artifacts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ptree_boost/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ptree_boost/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ptree_boost/data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ptree_boost/feature_spec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ptree_boost/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ptree_boost/outputs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ptree_boost/ptree_boosting.py" afterDir="false" />
+    <list default="true" id="442eb4c9-b09e-4b25-9961-56d9ef9417f9" name="更改" comment="Ptree仓库第一次提交">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/artifacts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ptree_boost/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ptree_boost/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ptree_boost/feature_spec.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ptree_boost/feature_spec.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +29,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/ptree_boost/config.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/ptree_boost/feature_spec.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -61,7 +50,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "settings.qodana"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -80,9 +69,20 @@
       <option name="presentableId" value="Default" />
       <updated>1764825289197</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ptree仓库第一次提交">
+      <option name="closed" value="true" />
+      <created>1764920320827</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764920320827</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Ptree仓库第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ptree仓库第一次提交" />
   </component>
 </project>
